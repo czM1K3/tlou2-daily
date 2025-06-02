@@ -1,5 +1,8 @@
 import styles from "./page.module.css";
-import { Tlou } from "./tlou";
+import { Tlou } from "./_components/tlou";
+
+export const revalidate = 0;
+export const runtime = "edge";
 
 export default function Home() {
   return (
