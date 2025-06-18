@@ -1,0 +1,67 @@
+.background {
+    background-image: url("/board.webp");
+    background-size: cover;
+    background-position: center;
+    .row {
+        height: 100vh;
+        background-color: rgba(10, 10, 10, 0.5);
+    }
+}
+
+.row {
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    .column {
+        flex: 50%;
+    }
+}
+
+.logo {
+    width: 70%;
+    margin-bottom: 2rem;
+    * {
+        aspect-ratio: 1047/514;
+        width: 100%;
+        height: auto;
+        
+    }
+}
+
+.first {
+    display: inline-flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.second {
+    display: inline-block;
+    align-self: center;
+}
+
+.seed {
+    font-size: 2rem;
+}
+
+.today {
+    height: 3rem;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    .button {
+        cursor: pointer;
+    }
+}
+
+.characterImage {
+    max-width: 50vw;
+    max-height: 80vh;
+    aspect-ratio: 10/8;
+    .image {
+        width: 100%;
+        height: auto;
+    }
+}
